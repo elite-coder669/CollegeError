@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Secure Voting System</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Step 1: Iris ID Input -->
+        <div class="step" id="step1">
+            <h2>Enter Your Iris ID</h2>
+            <input type="text" id="irisInput" placeholder="Enter Iris ID">
+            <button onclick="verifyIris()">Next</button>
+            <p id="irisError" class="error"></p>
+        </div>
+
+        <!-- Step 2: NFC Activation and Input -->
+        <div class="step" id="step2" style="display: none;">
+            <h2>NFC ACTIVATED</h2>
+            <h3>Enter Your NFC ID</h3>
+            <input type="text" id="nfcInput" placeholder="Enter NFC ID">
+            <button onclick="verifyNFC()">Next</button>
+            <p id="nfcError" class="error"></p>
+        </div>
+
+        <!-- Step 3: Displaying Voter Info (Instead of Simulation) -->
+        <div class="step" id="step3" style="display: none;">
+            <h2>Face Recognition Complete</h2>
+            <img id="voterPhoto" class="photo" src="" alt="Voter Photo">
+            <p id="voterName"></p>
+            <p id="voterID"></p>
+            <button onclick="showStep(4)">Proceed to Vote</button>
+        </div>
+
+        <!-- Step 4: Voting Machine -->
+        <div class="step" id="step4" style="display: none;">
+            <h2>Cast Your Vote</h2>
+            <button onclick="castVote('Party A')">Party A</button>
+            <button onclick="castVote('Party B')">Party B</button>
+            <button onclick="castVote('Party C')">Party C</button>
+            <button onclick="castVote('Party D')">Party D</button>
+            <button onclick="castVote('Party E')">Party E</button>
+        </div>
+
+        <!-- Step 5: Vote Success & NFC Deactivation -->
+        <div class="step" id="step5" style="display: none;">
+            <h2>Vote Successfully Cast!</h2>
+            <p>NFC DEACTIVATED</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,72 @@
+[
+  {
+      "iris_id": "123456",
+      "name": "John Doe",
+      "voter_id": "VOTER001",
+      "nfc_id": "NFC123",
+      "photo": "https://randomuser.me/api/portraits/men/1.jpg"
+  },
+  {
+      "iris_id": "654321",
+      "name": "Jane Smith",
+      "voter_id": "VOTER002",
+      "nfc_id": "NFC456",
+      "photo": "https://randomuser.me/api/portraits/women/1.jpg"
+  },
+  {
+      "iris_id": "789012",
+      "name": "Michael Brown",
+      "voter_id": "VOTER003",
+      "nfc_id": "NFC789",
+      "photo": "https://randomuser.me/api/portraits/men/2.jpg"
+  },
+  {
+      "iris_id": "345678",
+      "name": "Emily Davis",
+      "voter_id": "VOTER004",
+      "nfc_id": "NFC012",
+      "photo": "https://randomuser.me/api/portraits/women/2.jpg"
+  },
+  {
+      "iris_id": "987654",
+      "name": "David Wilson",
+      "voter_id": "VOTER005",
+      "nfc_id": "NFC345",
+      "photo": "https://randomuser.me/api/portraits/men/3.jpg"
+  },
+  {
+      "iris_id": "234567",
+      "name": "Sarah Johnson",
+      "voter_id": "VOTER006",
+      "nfc_id": "NFC678",
+      "photo": "https://randomuser.me/api/portraits/women/3.jpg"
+  },
+  {
+      "iris_id": "567890",
+      "name": "James Anderson",
+      "voter_id": "VOTER007",
+      "nfc_id": "NFC901",
+      "photo": "https://randomuser.me/api/portraits/men/4.jpg"
+  },
+  {
+      "iris_id": "876543",
+      "name": "Olivia Martinez",
+      "voter_id": "VOTER008",
+      "nfc_id": "NFC234",
+      "photo": "https://randomuser.me/api/portraits/women/4.jpg"
+  },
+  {
+      "iris_id": "135792",
+      "name": "Robert Taylor",
+      "voter_id": "VOTER009",
+      "nfc_id": "NFC567",
+      "photo": "https://randomuser.me/api/portraits/men/5.jpg"
+  },
+  {
+      "iris_id": "246801",
+      "name": "Sophia Thomas",
+      "voter_id": "VOTER010",
+      "nfc_id": "NFC890",
+      "photo": "https://randomuser.me/api/portraits/women/5.jpg"
+  }
+]
